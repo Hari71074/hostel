@@ -1,0 +1,223 @@
+[debug] [2024-11-15T11:28:13.643Z] ----------------------------------------------------------------------
+[debug] [2024-11-15T11:28:13.650Z] Command:       /Users/hariprasad/.nvm/versions/node/v23.1.0/bin/node /Users/hariprasad/.npm-global/bin/firebase init hosting
+[debug] [2024-11-15T11:28:13.650Z] CLI Version:   13.25.0
+[debug] [2024-11-15T11:28:13.650Z] Platform:      darwin
+[debug] [2024-11-15T11:28:13.650Z] Node Version:  v23.1.0
+[debug] [2024-11-15T11:28:13.650Z] Time:          Fri Nov 15 2024 16:58:13 GMT+0530 (India Standard Time)
+[debug] [2024-11-15T11:28:13.650Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-15T11:28:13.682Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-15T11:28:13.682Z] > authorizing via signed-in user (s02099779@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/hariprasad/Documents/Hostel
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-15T11:28:13.684Z] Using project from CLI flag: hostel-cee78
+[debug] [2024-11-15T11:28:13.684Z] Checked if tokens are valid: true, expires at: 1731672976844
+[debug] [2024-11-15T11:28:13.684Z] Checked if tokens are valid: true, expires at: 1731672976844
+[debug] [2024-11-15T11:28:13.684Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hostel-cee78 [none]
+[debug] [2024-11-15T11:28:14.414Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hostel-cee78 200
+[debug] [2024-11-15T11:28:14.414Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hostel-cee78 {"projectId":"hostel-cee78","projectNumber":"403321330032","displayName":"Hostel","name":"projects/hostel-cee78","resources":{"hostingSite":"hostel-cee78"},"state":"ACTIVE","etag":"1_402beadb-68e5-4851-8bc8-95e8fb8d1287"}
+[info] i  Using project hostel-cee78 (Hostel) 
+[info] 
+=== Hosting Setup
+[debug] [2024-11-15T11:28:14.423Z] Checked if tokens are valid: true, expires at: 1731672976844
+[debug] [2024-11-15T11:28:14.423Z] Checked if tokens are valid: true, expires at: 1731672976844
+[debug] [2024-11-15T11:28:14.423Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hostel-cee78 [none]
+[debug] [2024-11-15T11:28:15.546Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hostel-cee78 200
+[debug] [2024-11-15T11:28:15.546Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hostel-cee78 {"projectId":"hostel-cee78","projectNumber":"403321330032","displayName":"Hostel","name":"projects/hostel-cee78","resources":{"hostingSite":"hostel-cee78"},"state":"ACTIVE","etag":"1_402beadb-68e5-4851-8bc8-95e8fb8d1287"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-11-15T11:28:27.160Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-11-15T11:28:27.450Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-11-15T11:28:27.450Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.0.2","browserURL":"https://www.gstatic.com/firebasejs/11.0.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.0.2/firebase.tgz"},"live":{"version":"11.0","browserURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.0/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.0.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.0.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.0.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.0.2/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.0.2/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.0.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.0.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.0.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.0.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.0.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.0.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.0.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.0.2/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.0.2/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.0.2/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore.memory.js"}}
+[info] ✔  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming /Users/hariprasad/Documents/Hostel is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1058876586&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-11-15T11:28:40.904Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-11-15T11:28:40.904Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-11-15T11:28:41.289Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-11-15T11:28:41.289Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-11-15T11:28:41.296Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-11-15T11:28:41.700Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-11-15T11:28:41.701Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Hari71074","id":187364890,"node_id":"U_kgDOCyr2Gg","avatar_url":"https://avatars.githubusercontent.com/u/187364890?v=4","gravatar_id":"","url":"https://api.github.com/users/Hari71074","html_url":"https://github.com/Hari71074","followers_url":"https://api.github.com/users/Hari71074/followers","following_url":"https://api.github.com/users/Hari71074/following{/other_user}","gists_url":"https://api.github.com/users/Hari71074/gists{/gist_id}","starred_url":"https://api.github.com/users/Hari71074/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Hari71074/subscriptions","organizations_url":"https://api.github.com/users/Hari71074/orgs","repos_url":"https://api.github.com/users/Hari71074/repos","events_url":"https://api.github.com/users/Hari71074/events{/privacy}","received_events_url":"https://api.github.com/users/Hari71074/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":3,"public_gists":0,"followers":0,"following":0,"created_at":"2024-11-05T05:51:37Z","updated_at":"2024-11-14T12:34:00Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":181,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as Hari71074 
+[info] 
+[debug] [2024-11-15T11:28:46.749Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:28:47.126Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-11-15T11:28:47.127Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:28:50.300Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:28:50.561Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-11-15T11:28:50.561Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:28:52.350Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:28:53.385Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-11-15T11:28:53.385Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:28:56.859Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:28:57.947Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-11-15T11:28:57.947Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:29:07.034Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:29:07.376Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2024-11-15T11:29:07.376Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:29:07.602Z] >>> [apiv2][query] GET https://api.github.com/repos/user/actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:29:07.867Z] <<< [apiv2][status] GET https://api.github.com/repos/user/actions/secrets/public-key 404
+[debug] [2024-11-15T11:29:07.868Z] <<< [apiv2][body] GET https://api.github.com/repos/user/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:30:02.007Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:30:03.413Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-11-15T11:30:03.414Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:31:14.852Z] >>> [apiv2][query] GET https://api.github.com/repos/hostel/actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:31:15.416Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:31:15.433Z] <<< [apiv2][status] GET https://api.github.com/repos/hostel/actions/secrets/public-key 404
+[debug] [2024-11-15T11:31:15.433Z] <<< [apiv2][body] GET https://api.github.com/repos/hostel/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:31:15.636Z] >>> [apiv2][query] GET https://api.github.com/repos/hostel/actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:31:15.742Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-11-15T11:31:15.742Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:31:15.844Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:31:15.916Z] <<< [apiv2][status] GET https://api.github.com/repos/hostel/actions/secrets/public-key 404
+[debug] [2024-11-15T11:31:15.916Z] <<< [apiv2][body] GET https://api.github.com/repos/hostel/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:31:16.021Z] >>> [apiv2][query] GET https://api.github.com/repos/hostel/actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:31:16.099Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-11-15T11:31:16.100Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:31:16.226Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:31:16.299Z] <<< [apiv2][status] GET https://api.github.com/repos/hostel/actions/secrets/public-key 404
+[debug] [2024-11-15T11:31:16.299Z] <<< [apiv2][body] GET https://api.github.com/repos/hostel/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:31:16.434Z] >>> [apiv2][query] GET https://api.github.com/repos/hostel/actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:31:16.490Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-11-15T11:31:16.490Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:31:17.118Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-11-15T11:31:17.133Z] <<< [apiv2][status] GET https://api.github.com/repos/hostel/actions/secrets/public-key 404
+[debug] [2024-11-15T11:31:17.134Z] <<< [apiv2][body] GET https://api.github.com/repos/hostel/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-11-15T11:31:18.149Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-11-15T11:31:18.149Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
